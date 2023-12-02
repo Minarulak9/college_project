@@ -152,7 +152,7 @@
             <div class="row g-4 footer-inner">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
-                        <h4 class="text-white fw-bold mb-4">About OneStepSolution</h4>
+                        <h4 class="text-white fw-bold mb-4">About SimpleSolveHub</h4>
                         <p>Our WebSite One Step Solution Provides the Best Services and Solution for Everyone. We Provide Experienced and Certified Provider for all type of Services. We provide service provider in time and our web site is the best website in the world.</p>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                         <h4 class="text-white fw-bold mb-4">Contact Us</h4>
                         <a href="#" class="btn btn-link w-100 text-start ps-0 pb-3 rounded-0"><i class="fa fa-map-marker-alt me-3"></i>Kolkata, India</a>
                         <a href="tel:+919999999999" class="btn btn-link w-100 text-start ps-0 py-3 rounded-0"><i class="fa fa-phone-alt me-3"></i>+919009009009</a>
-                        <a href="mailto:info@gmail.com" class="btn btn-link w-100 text-start ps-0 py-3 rounded-0"><i class="fa fa-envelope me-3"></i>Onestepsolution@gmail.com</a>
+                        <a href="mailto:info@gmail.com" class="btn btn-link w-100 text-start ps-0 py-3 rounded-0"><i class="fa fa-envelope me-3"></i>SimpleSolveHub@gmail.com</a>
                     </div>
                 </div>
             </div>

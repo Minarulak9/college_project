@@ -167,4 +167,21 @@
     .support-button a {
         font-size: 13px;
     }
+    .back-to-top{
+        right: 20px;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(216, 216, 216);
+}
+::-webkit-scrollbar-thumb{
+    background-color:var(--bs-primary);
+
+}
+.footer-item .btn-link{
+    white-space: nowrap;
 }

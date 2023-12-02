@@ -52,11 +52,11 @@
                 <div class="accordion faq-accordian" id="faqAccordion">
                     <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                         <div class="card-header" id="headingOne">
-                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is OneStepSolution.com about?<span class="lni-chevron-up"></span></h6>
+                            <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is SimpleSolveHub.com about?<span class="lni-chevron-up"></span></h6>
                         </div>
                         <div class="collapse" id="collapseOne" aria-labelledby="headingOne" data-parent="#faqAccordion">
                             <div class="card-body">
-                                <p>OneStepSolution.com is a personal website where One Step Solution shares his expertise and experiences in [relevant field or industry]. You can find valuable information, resources, and updates related to [specific topics].</p>
+                                <p>SimpleSolveHub.com is a personal website where One Step Solution shares his expertise and experiences in [relevant field or industry]. You can find valuable information, resources, and updates related to [specific topics].</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                         </div>
                         <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#faqAccordion">
                             <div class="card-body">
-                                <p>Onestepsolution.com offers a range of [describe services or information], including [specific offerings]. Visitors can explore [different sections or categories] to find relevant and useful content.</p>
+                                <p>SimpleSolveHub.com offers a range of [describe services or information], including [specific offerings]. Visitors can explore [different sections or categories] to find relevant and useful content.</p>
                             </div>
                         </div>
                     </div>

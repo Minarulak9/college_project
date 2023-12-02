@@ -30,8 +30,9 @@
             <img src="./admin/<?php echo $data['banners_image']; ?>" class="hero_bg" alt="Second slide">
             <div class="container carousel-content">
                 <h4 class="mb-4 animated slideInDown text-primary">Your Home, Your Sanctuary, Our Services</h4>
-                <h1 class="text-white display-3 mb-4 animated slideInDown">Elevating Home Life: Where<span class="text-primary"> Quality Services</span> Meet Your Doorstep.</h1>
-                <a href="#about_us" class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown">Read More</button></a>
+                <h1 class="text-white display-3 mb-4 animated slideInDown"> Enhancing Domestic Harmony: Where <span class="text-primary">   Excellence</span> Comes Home to You.</h1>
+              
+                <a href="./service.php" class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown">Explore Services</button></a>
             </div>
         </div>
     </div>
@@ -99,7 +100,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="about-item overflow-hidden">
-                        <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">About OneStepSolution</h5>
+                        <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">About SimpleSolveHub</h5>
                         <h1 class="display-5 mb-2">World Best Services</h1>
                         <p class="fs-5" style="text-align: justify;">Our WebSite One Step Solution Provides the Best Services and Solution for Everyone. We Provide Experienced and Certified Provider for all type of Services. We provide service provider in time and our web site is the best website in the world.</p>
                         <div class="row service_highlight">

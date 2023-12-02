@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".6s">
                     <div class="about-item overflow-hidden">
-                        <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">About OneStepSolution</h5>
+                        <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">About SimpleSolveHub</h5>
                         <h1 class="display-5 mb-2">World Best Services</h1>
                         <p class="fs-5" style="text-align: justify;">Our WebSite One Step Solution Provides the Best Services and Solution for Everyone. We Provide Experienced and Certified Provider for all type of Services. We provide service provider in time and our web site is the best website in the world.</p>
                         <div class="row service_highlight">

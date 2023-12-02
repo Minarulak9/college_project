@@ -40,7 +40,7 @@ include('./config/db_con.php');
     <div class="container-fluid services py-5">
         <div class="container text-center py-5">
             <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
-                <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Our Services</h5>
+                <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">Choose Category</h5>
                 <!-- <h1 class="display-5">Our Services</h1> -->
             </div>
             <div class="row g-5">

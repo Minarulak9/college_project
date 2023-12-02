@@ -52,11 +52,11 @@
                 <i class="fa-solid fa-square-rss"></i><span>Payment List</span>
               </a>
             </li>
-            <li class="<?php if($page=='blogs') echo 'active'?>">
+            <!-- <li class="<?php if($page=='blogs') echo 'active'?>">
               <a href="./blogs.php" class="nav-link">
                 <i class="fa-solid fa-square-rss"></i><span>Blog</span>
               </a>
-            </li>
+            </li> -->
             
             <li class="<?php if($page=='contact_us') echo 'active'?>">
               <a href="./contact_us.php" class="nav-link">

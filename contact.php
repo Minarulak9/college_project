@@ -117,7 +117,7 @@
                         </div>
                         <div class="ms-3 contact-link">
                             <h4 class="text-dark">Email Us</h4>
-                            <a class="h5 text-dark fs-6" href="#">onestepsolution@gmail.com</a>
+                            <a class="h5 text-dark fs-6" href="#">simplesolvehub@gmail.com</a>
                         </div>
                     </div>
                 </div>
