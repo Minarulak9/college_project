@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 02, 2023 at 03:39 PM
+-- Generation Time: Dec 05, 2023 at 10:18 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -144,7 +144,10 @@ INSERT INTO `categories` (`id`, `categories_name`, `image`) VALUES
 (15, 'Doctor', 'category_image/doctor.jpg'),
 (16, 'Teacher', 'category_image/teacher.jpg'),
 (17, 'Beauty & Makeup', 'category_image/makeup.jpg'),
-(18, 'Website Developer', 'category_image/website Developer.jpg');
+(18, 'Website Developer', 'category_image/website Developer.jpg'),
+(19, 'Electrician', 'category_image/electrician.jpg'),
+(20, 'Water Supplier', 'category_image/watter.jpg'),
+(21, 'Car Repairing', 'category_image/car.jpg');
 
 -- --------------------------------------------------------
 
@@ -373,7 +376,7 @@ ALTER TABLE `blog`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `contact_us`
