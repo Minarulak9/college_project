@@ -15,7 +15,7 @@
         $mobile_number = mysqli_real_escape_string($conn, $_POST['mobile_number']);
         $register_date= date('Y-m-d');
         // $sql = "INSERT INTO `register`(`id`, `full_name`, `username`, `profession`, `pincode`, `password`, `mobile_number`,`register_date`) VALUES ('','$full_name','$username','$profession','$pincode','$password','$mobile_number','$register_date')";
-        $sql="INSERT INTO `register`(`id`, `full_name`, `email`, `profession`, `pincode`, `password`, `mobile_number`, `register_date`,`user_type`,`status`) VALUES ('','$full_name','$email','$profession','$pincode','$password','$mobile_number','$register_date','Paid User','Pending','0')";
+        $sql="INSERT INTO `register`(`id`, `full_name`, `email`, `profession`, `pincode`, `password`, `mobile_number`, `register_date`,`user_type`,`status`) VALUES ('','$full_name','$email','$profession','$pincode','$password','$mobile_number','$register_date','Paid User','Pending')";
         $data = mysqli_query($conn, $sql);
         if ($data) 
         {

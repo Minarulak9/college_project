@@ -7,8 +7,11 @@
       $mobile_number= mysqli_real_escape_string($conn,$_POST['mobile_number']);
       $password=mysqli_real_escape_string($conn,$_POST['password']);
       $sql= "SELECT * FROM register WHERE mobile_number='$mobile_number' AND password='$password' AND status='Approved' AND auth='0'";
+      $sql1= "SELECT * FROM register WHERE mobile_number='$mobile_number' AND password='$password'";
       $data= mysqli_query($conn, $sql);
+      $data1= mysqli_query($conn, $sql1);
       $count=mysqli_num_rows($data);
+      $count1=mysqli_num_rows($data1);
 
       if($count>0)
       {
@@ -16,6 +19,8 @@
         $_SESSION['UID']=$res['id'];
         header('location:dashboard.php');
         die();
+      }else if($count1 > 0){
+        $msg = "You Have Successfully Registered. Wait For Admin Verification";
       }
       else
       {

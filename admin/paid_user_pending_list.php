@@ -65,9 +65,10 @@ require './assets/components/head.php' ?>
                                    <td>
                                      <div class="btns">
                                         <!-- <a href="#" class="btn btn-warning">Edit</a> -->
-                                        <a href="delete_pending_user.php?del=<?php echo $result['id'] ?>" class="btn btn-danger">Delete</a>
-                                        <a href="paid_user_approved_button.php?app=<?php echo $result['id'] ?>" class="btn btn-success">Approved</a>
-                                        <a href="paid_user_reject_button.php?rej=<?php echo $result['id'] ?>" class="btn btn-warning">Reject</a>
+                                        <a href="#!" class="btn btn-sm btn-primary">View</a>
+                                        <a href="paid_user_approved_button.php?app=<?php echo $result['id'] ?>" class="btn btn-sm btn-success">Approved</a>
+                                        <a href="delete_pending_user.php?del=<?php echo $result['id'] ?>" class="btn btn-sm btn-danger">Delete</a>
+                                        <a href="paid_user_reject_button.php?rej=<?php echo $result['id'] ?>" class="btn btn-sm btn-warning">Reject</a>
                                      </div>
                                    </td>
                                  </tr>

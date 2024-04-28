@@ -34,15 +34,15 @@ $mobile_number=$_SESSION['MOBILE'];
                         <form method="POST" action="paid_register_action.php">
                             <div class="form-group mb-3">
                                 <label for="fullname">Full Name</label>
-                                <input type="text" class="form-control" id="fullname" name="name" placeholder="Enter your Full Name">
+                                <input type="text" class="form-control" id="fullname" name="name" placeholder="Enter your Full Name" required>
                             </div>
                             <div class="form-group mb-3">
                                 <label for="email">Email</label>
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" required>
                             </div>
                             <div class="form-group mb-3" >
                                 <label for="exampleSelect">Select an Profession</label>
-                                <select name="categories_name" id="service" class="form-control">
+                                <select name="categories_name" id="service" class="form-control" required>
                           <option>Select Service</option>
                           <?php 
                                     $sql="SELECT categories_name FROM `categories` order by id desc";
@@ -62,26 +62,17 @@ $mobile_number=$_SESSION['MOBILE'];
                             </div>
                             <div class="form-group mb-3">
                                 <label for="pin">Pincode</label>
-                                <input type="text" class="form-control" id="pin" name="pincode" placeholder="Enter your Pincode">
+                                <input type="text" class="form-control" id="pin" name="pincode" placeholder="Enter your Pincode" required>
                             </div>
                             <div class="form-group mb-3">
                                 <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Mobile No.</label>
-                                <input type="text" class="form-control" id="phone" name="mobile_number" placeholder="Enter your Mobile No." value="<?php echo $mobile_number; ?> ">
+                                <input type="text" class="form-control" id="phone" name="mobile_number" placeholder="Enter your Mobile No." value="<?php echo $mobile_number; ?> " required>
                             </div>
-                                <!-- <div class="text-end mt-2">
-                                    <a href="" class="btn btn-primary btn-sm ">Send OTP</a>
-                                </div>
                             
-                            <div class="form-group mb-3">
-                                <label for="otp">OTP</label>
-                                <input type="text" class="form-control" id="otp" placeholder="Enter your OTP">
-                            </div> -->
-                            
-                               <!-- <button type="submit" class="btn btn-primary">Register</button> -->
                                <br>
                                <input type="submit" name="submit" value="Register" class="btn btn-primary">
                             </div>

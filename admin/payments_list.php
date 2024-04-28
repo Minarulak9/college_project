@@ -37,7 +37,7 @@
                       <th>Full Name</th>
                       <th>User Mobile Number</th>
                       <th>Transaction Id</th>
-                      <th>Upload Sc</th>
+                      <th>Payment Sc</th>
                       <th>Payment Date</th>
                       <th>Action</th>
                     </tr>
@@ -61,7 +61,9 @@
                                 <td><?php echo $result['user_mobile_no'] ?></td>
                                 <td><?php echo $result['transaction_id'] ?></td>
                                 <td>
-                                  <img src="../<?php echo $result['upload_sc'] ?>" height="50" width="50">
+                                  <a href="../<?php echo $result['upload_sc'] ?>" target="blank">
+                                    <img src="../<?php echo $result['upload_sc'] ?>" height="50" width="50">
+                                  </a>
                                 </td>
                                 <td><?php echo $result['payment_date'] ?></td>
                                 <td>
